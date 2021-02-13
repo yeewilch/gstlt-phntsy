@@ -1,5 +1,6 @@
-import Navigation from "./components/Navigation";
-import ContentRouter from "./components/ContentRouter";
+import Navigation from './components/Navigation'
+import ContentRouter from './components/ContentRouter'
+import Record from './components/Record'
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
         <Navigation />
         <ContentRouter />
       </div>
+      <Record />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
