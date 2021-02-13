@@ -1,5 +1,3 @@
-import { eachSeries } from "async"
-
 const Record = () => {
     return(
         <div className='record-wrapper' style={ayStyle}>
