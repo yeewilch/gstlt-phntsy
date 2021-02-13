@@ -6,7 +6,6 @@ const Navigation = () => {
           <nav className='nav-links'>
             <GeneraInformation />
             <NavigationLinks />
-            <ImageWrapper />
           </nav>
         </div>
     )
