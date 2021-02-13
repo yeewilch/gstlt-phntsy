@@ -4,7 +4,7 @@ const Navigation = () => {
     return(
         <div className='sidenav'>
           <nav className='nav-links'>
-            <GeneraInformation />
+            <GeneralInformation />
             <NavigationLinks />
           </nav>
         </div>
@@ -24,7 +24,7 @@ const NavigationLinks = () => {
     )
 }
 
-const GeneraInformation = () => {
+const GeneralInformation = () => {
     return(
         <div className='about-us'>
             <p style={{ fontWeight: 'bold' }}>PHANTASYNET</p>
